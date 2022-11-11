@@ -45,136 +45,23 @@
             </div>
         </nav>
         <h1 class="text-center">Past Events</h1>
-        <!-- comienzo carousel -->
-        <!--         <div id="carouselExampleDark" class="carousel carousel-dark slide"  data-bs-touch="false"> 
-            <div class="carousel-inner">
-            <div class="carousel-item active text-center">
-                <h1>Home</h1>
-            </div>
-            <div class="carousel-item text-center">
-                <h1>Upcoming Events</h1>
-            </div>
-            <div class="carousel-item text-center">
-                <h1>Past Events</h1>
-            </div>
-            <div class="carousel-item text-center">
-                <h1>Contact</h1>
-            </div>
-            <div class="carousel-item text-center">
-                <h1>Stats</h1>
-            </div>
-            </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
 
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
-          </div> -->
     </header>
     <main>
         <nav class="navbar navbar-expand-lg d-flex">
             <!-- segundo nav -->
-            <div class="navbar d-inline-flex justify-content-evenly">
-                <div class="form-check form-check-inline m-4 p-2 justify-content-start">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
-                    <label class="form-check-label" for="flexCheckDefault1">Category</label>
-                </div>
-                <div class="form-check form-check-inline m-4 p-2 justify-content-start">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-                    <label class="form-check-label" for="flexCheckDefault2">Category</label>
-                </div>
-                <div class="form-check form-check-inline m-4 p-2 justify-content-start">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-                    <label class="form-check-label" for="flexCheckDefault3">Category</label>
-                </div>
-                <div class="form-check form-check-inline m-4 p-2 justify-content-start">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
-                    <label class="form-check-label" for="flexCheckDefault4">Category</label>
-                </div>
-                <div class="searchbar justify-content-end">
-                    <form class="d-flex justify-content-end" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-dark bg-light" type="submit">Search</button>
-                    </form>
-                </div>
+            <div class="navbar d-inline-flex justify-content-evenly" id="checkboxs">
+
+            </div>
+            <div class="searchbar justify-content-end">
+                <form class="d-flex justify-content-end" role="search" id="search">
+                    <input class="form-control me-2" type="search" placeholder="Search event..." aria-label="Search" >
+                </form>
+            </div> 
             </div>
         </nav> <!-- final 2do nav -->
         <!-- comienzo cards -->
-        <div class="all cards d-flex flex-row flex-wrap mb-3 gap-5 justify-content-center" id="cards">
-
-            <!--  <div class="card" style="width: 18rem;">
-            <img src="./assets/img/feriadecomidas.jpg" class="card-img-top p-3" alt="feria de comidas">
-            <div class="card-body">
-                <h5 class="card-title">Festival of the collectivities</h5>
-                <ul>
-                    <li>Date: 2021-12-21</li>
-                    <li>Description:Enjoy your favorite dishes from different countries in a unique event for the whole family.</li>
-                    <li>Category:Food Fair</li>
-                    <li>Place: Room A</li>
-                    <li>Capacity: 45000</li>
-                    <li>Assistance: 42756</li>
-                  </ul>
-                  <p class="fw-bold text-center text-decoration-underline">Price: 5</p>
-                <a href="#" class="btn btn-primary">More Information</a>
-            </div>
-        </div>
-    
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/img/salidamuseo.jpg" class="card-img-top p-3" alt="outgoing to the museum">
-            <div class="card-body">
-                <h5 class="card-title">Jurassic Park</h5>
-                <ul>
-                    <li>Date: 2021-11-02</li>
-                    <li>Description:Let's go to the paleontology museum for an incredible tour to learn about the largest dinosaurs.</li>
-                    <li>Category:Museum</li>
-                    <li>Place: Field</li>
-                    <li>Capacity: 82000</li>
-                    <li>Assistance: 65892</li>
-                  </ul>
-                  <p class="fw-bold text-center text-decoration-underline">Price: 15</p>
-                <a href="#" class="btn btn-primary">More Information</a>
-            </div>
-        </div>
-    
-
-        
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/img/Maraton3.jpg" class="card-img-top p-3" alt="marathon photo">
-            <div class="card-body">
-                <h5 class="card-title">10K for life</h5>
-                <ul>
-                    <li>Date: 2021-03-01</li>
-                    <li>Description:Come and exercise, improve your health and lifestyle.</li>
-                    <li>Category: Race</li>
-                    <li>Place: Soccer Field</li>
-                    <li>Capacity: 30000</li>
-                    <li>Assistance: 25698</li>
-                  </ul>
-                  <p class="fw-bold text-center text-decoration-underline">Price: 3</p>
-                <a href="#" class="btn btn-primary">More Information</a>
-            </div>
-        </div>
-        
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/img/books.jpg" class="card-img-top p-3" alt="library photo">
-            <div class="card-body">
-                <h5 class="card-title">School Book Fair</h5>
-                <ul>
-                    <li>Date: 2021-10-15</li>
-                    <li>Description:Bring your unused school book and bring the one you need.</li>
-                    <li>Category: Book Exchange</li>
-                    <li>Place: Room D1</li>
-                    <li>Capacity: 150000</li>
-                    <li>Assistance: 123286</li>
-                  </ul>
-                  <p class="fw-bold text-center text-decoration-underline">Price: 1</p>
-                <a href="#" class="btn btn-primary">More Information</a>
-            </div>
-        </div> -->
+        <div class="all cards d-flex flex-row flex-wrap mb-3 gap-5 justify-content-center" id="cont-cards">
 
         </div>
     </main>

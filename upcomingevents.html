@@ -45,118 +45,24 @@
             </div>
         </nav>
         <h1 class="text-center">Upcoming Events</h1>
-        <!-- comienzo carousel -->
-        <!--         <div id="carouselExampleDark" class="carousel carousel-dark slide"  data-bs-touch="false"> 
-            <div class="carousel-inner">
-            <div class="carousel-item active text-center">
-                <h1>Home</h1>
-            </div>
-            <div class="carousel-item text-center">
-                <h1>Upcoming Events</h1>
-            </div>
-            <div class="carousel-item text-center">
-                <h1>Past Events</h1>
-            </div>
-            <div class="carousel-item text-center">
-                <h1>Contact</h1>
-            </div>
-            <div class="carousel-item text-center">
-                <h1>Stats</h1>
-            </div>
-            </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
 
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
-          </div> -->
     </header>
     <main>
         <nav class="navbar navbar-expand-lg d-flex">
             <!-- segundo nav -->
-            <div class="navbar d-inline-flex justify-content-evenly">
-                <div class="form-check form-check-inline m-4 p-2 justify-content-start">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
-                    <label class="form-check-label" for="flexCheckDefault1">Category</label>
-                </div>
-                <div class="form-check form-check-inline m-4 p-2 justify-content-start">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-                    <label class="form-check-label" for="flexCheckDefault2">Category</label>
-                </div>
-                <div class="form-check form-check-inline m-4 p-2 justify-content-start">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-                    <label class="form-check-label" for="flexCheckDefault3">Category</label>
-                </div>
-                <div class="form-check form-check-inline m-4 p-2 justify-content-start">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
-                    <label class="form-check-label" for="flexCheckDefault4">Category</label>
-                </div>
-                <div class="searchbar justify-content-end">
-                    <form class="d-flex justify-content-end" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-dark bg-light" type="submit">Search</button>
-                    </form>
-                </div>
+            <div class="navbar d-inline-flex justify-content-evenly" id="checkboxs">
+
+            </div>
+            <div class="searchbar justify-content-end">
+                <form class="d-flex justify-content-end" role="search" id="search">
+                    <input class="form-control me-2" type="search" placeholder="Search event..." aria-label="Search" >
+                </form>
+            </div> 
             </div>
         </nav> <!-- final 2do nav -->
         <!-- comienzo cards -->
-        <div class="all cards d-flex flex-row flex-wrap mb-3 gap-5 justify-content-center" id="cards">
+        <div class="all cards d-flex flex-row flex-wrap mb-3 gap-5 justify-content-center" id="cont-cards">
 
-
-            <!--  <div class="card" style="width: 18rem;">
-            <img src="./assets/img/fiestadedisfraces.jpg" class="card-img-top p-3" alt="halloween costume party">
-            <div class="card-body">
-                <h5 class="card-title">Halloween Night</h5>
-                <ul>
-                    <li>Date: 2022-02-12</li>
-                    <li>Description:Come in your scariest costume character to win amazing prizes.</li>
-                    <li>Category: Costume Party</li>
-                    <li>Place: Room C</li>
-                    <li>Capacity: 12000</li>
-                    <li>Estimate: 9000</li>
-                  </ul>
-                  <p class="fw-bold text-center text-decoration-underline">Price: 12</p>
-                <a href="#" class="btn btn-primary">More Information</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/img/conciertodemusica.jpg" class="card-img-top p-3" alt="Music concert">
-            <div class="card-body">
-                <h5 class="card-title">Metallica in concert</h5>
-                <ul>
-                    <li>Date: 2022-02-12</li>
-                    <li>Description:The only concert of the most emblematic band in the world.</li>
-                    <li>Category: Music Concert</li>
-                    <li>Place: Room A</li>
-                    <li>Capacity: 138000</li>
-                    <li>Estimate: 138000</li>
-                  </ul>
-                  <p class="fw-bold text-center text-decoration-underline">Price: 150</p>
-                <a href="#" class="btn btn-primary">More Information</a>
-            </div>
-        </div>
-        
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/img/cine.jpg" class="card-img-top p-3" alt="library photo">
-            <div class="card-body">
-                <h5 class="card-title">Avengers</h5>
-                <ul>
-                    <li>Date: 2022-10-15</li>
-                    <li>Description: Marvel's Avengers 3d premiere the start of an epic saga with your best superheroes.</li>
-                    <li>Category: Let's go to the cinema</li>
-                    <li>Place: Room D1</li>
-                    <li>Capacity: 9000</li>
-                    <li>Estimate: 9000</li>
-                  </ul>
-                  <p class="fw-bold text-center text-decoration-underline">Price: 250</p>
-                <a href="#" class="btn btn-primary ">More Information</a>
-            </div>
-        </div> -->
         </div>
     </main>
     <footer class="text-bg-secondary  gap-5">
@@ -184,6 +90,7 @@
         crossorigin="anonymous"></script>
     <script src="./assets/JavaScript/data.js"></script>
     <script src="./assets/JavaScript/upcomingevents.js"></script>
+
 
 </body>
 

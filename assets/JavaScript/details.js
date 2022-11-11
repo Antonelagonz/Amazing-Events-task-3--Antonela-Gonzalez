@@ -19,7 +19,7 @@ div.innerHTML = `<div class="card card-details">
         <li>Category:${card.category}</li>
         <li>Place:${card.place}</li>
         <li>Capacity:${card.capacity}</li>
-        <li>Assistance:${card.assistance}</li>
+        <li>Assistance:${card.assistance || card.estimate}</li>
       </ul>
       <p class="price-details fw-bold text-center text-decoration-underline">Price:$${card.price}</p>
 </div>
